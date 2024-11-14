@@ -1,0 +1,27 @@
+body {
+    background-color: lightpink;
+color: rgb(122, 50, 50);
+}
+
+.videospequenos img {
+height: 150px;
+opacity: 0.5px;
+}
+
+.videospequenos {
+ overflow-x: auto;
+ display: flex;
+gap: 30px;
+}
+
+.videospequenos img:hover {
+opacity: 1,0;
+border: 10px solid palevioletred;
+
+}
+
+header{
+     font-size: 20px;
+}
+
+
